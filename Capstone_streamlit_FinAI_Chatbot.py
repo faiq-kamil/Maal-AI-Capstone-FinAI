@@ -24,7 +24,7 @@ if st.sidebar.button("✍️ Create New Chat", use_container_width=True):
 
 session_id = st.sidebar.selectbox("Chats", options=selectbox_selection, index=len(selectbox_selection)-1)
 
-st.sidebar.image("/Users/faiq/Documents/Financial AI Academy/08-Capstone_project_FinAI_Chatbot/Logo Maal AI.png")
+st.sidebar.image("Logo Maal AI.png")
 ## ---------- About
 st.sidebar.markdown("#")
 st.sidebar.markdown('''
